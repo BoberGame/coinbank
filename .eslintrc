@@ -4,7 +4,7 @@
     "react-app/jest"
   ],
   "rules": {
-    "jsx-quotes": ["error", "prefer-single"],
+    "jsx-quotes": ["error", "prefer-double"],
     "indent": ["error", 2],
     "max-len": [
       "error",
@@ -75,12 +75,12 @@
     ],
     "new-parens": ["error"],
     "no-lonely-if": ["error"],
-    "no-trailing-spaces": ["error"],
+    "no-trailing-spaces": ["warn"],
     "no-unneeded-ternary": ["error"],
     "no-whitespace-before-property": ["error"],
     "object-curly-spacing": ["error", "always"],
     "operator-assignment": ["error", "always"],
-    "operator-linebreak": ["error", "after"],
+    // "operator-linebreak": ["error", "after"],
     "semi-spacing": [
       "error",
       {
@@ -130,7 +130,7 @@
       }
     ],
     "arrow-parens": ["error", "always"],
-    "arrow-body-style": ["error", "as-needed"],
+    // "arrow-body-style": ["error", "as-needed"],
     "arrow-spacing": ["error"],
     "no-confusing-arrow": [
       "error",
